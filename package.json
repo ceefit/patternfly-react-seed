@@ -81,10 +81,15 @@
     "webpack-merge": "^4.1.4"
   },
   "dependencies": {
+    "@patternfly/react-charts": "^5.2.2",
     "@patternfly/react-core": "^3.77.2",
     "@patternfly/react-icons": "^3.14.18",
     "@patternfly/react-styles": "^3.5.7",
+    "circularbuffer": "^0.1.1",
+    "lodash": "^4.17.15",
+    "pondjs": "0.8.8",
     "react-router-dom": "^5.0.1",
-    "react-router-last-location": "^2.0.1"
+    "react-router-last-location": "^2.0.1",
+    "react-timeseries-charts": "latest"
   }
 }
