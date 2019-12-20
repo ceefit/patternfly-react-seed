@@ -23,7 +23,7 @@ const PatternflyChart: React.FunctionComponent<ITickerProps> = ({plotData}) => {
           padding={{
             bottom: 150,
             left: 50,
-            right: 150, // Adjusted to accommodate legend
+            right: 0,
             top: 50
           }}
           width={600}

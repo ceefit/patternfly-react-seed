@@ -7,6 +7,7 @@ import { useDocumentTitle } from '@app/utils/useDocumentTitle';
 import { LastLocationProvider, useLastLocation } from 'react-router-last-location';
 import { TimeSeriesPage } from '@app/TimeseriesPage/TimeSeriesPage';
 import { PatternflyChartPage } from '@app/PatternflyChartPage/PatternflyChartPage';
+import { VictoryChartsPage } from '@app/VictoryChartsPage/VictoryChartsPage';
 
 let routeFocusTimer: number;
 
@@ -44,6 +45,14 @@ const routes: IAppRoute[] = [
     label: 'Time Series Chart',
     path: '/timeseries-chart',
     title: 'Time Series Chart'
+  },
+  {
+    component: VictoryChartsPage,
+    exact: true,
+    isAsync: true,
+    label: 'Victory Chart',
+    path: '/victory-chart',
+    title: 'Victory Chart'
   }
 ];
 
